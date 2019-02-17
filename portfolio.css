@@ -1,7 +1,11 @@
 /* Author: Mattye Johnson */
 
-
-nav {
+header {
+      background-image: linear-gradient(to right, #dceef2, #d9e2f4, #e7d9f4);
+     text-align: center;
+}
+     
+ nav {
      padding: 0.5em;
      text-align: center;
      background-image: linear-gradient(to right, #bef7ed, #bee5f7, #bed6f7, #bec3f7, #dcbef7);
