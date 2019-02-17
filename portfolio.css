@@ -48,7 +48,7 @@ div.background {
     float: left;
     color: black;
     border: dashed #e5e1f2;
-    background-color: #ebe8f7;
+    background-color: lightgrey;
 }
 h1 {
     text-align: center;
