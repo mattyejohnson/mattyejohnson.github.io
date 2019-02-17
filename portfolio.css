@@ -1,0 +1,68 @@
+/* Author: Mattye Johnson */
+
+header { 
+     background-color: #C8FFF9;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     text-align: center;
+}
+
+nav {
+     padding: 0.5em;
+     text-align: center;
+     background-image: linear-gradient(to right, #bef7ed, #bee5f7, #bed6f7, #bec3f7, #dcbef7);
+}
+
+nav ul li {
+     display: inline;
+     list-style-type: none;
+}
+nav a {
+     padding: 0.25em;
+     color: #554f99;
+     font-weight: bold;
+     text-decoration: none;
+}
+
+nav a:hover {
+     color: black;
+     background-color: #f0eff9;
+}
+
+nav a:active {
+     color: black;
+     background-color: #00b3b3;
+}
+
+nav a:visited {
+     color: grey;
+     background-color: #f0eff9;
+}
+
+div.background {
+    background-color: #aab8ef;
+}
+
+#main {
+    width: 70%;
+    float: left;
+    color: black;
+    border: dashed #e5e1f2;
+    background-color: #ebe8f7;
+}
+h1 {
+    text-align: center;
+}
+
+#sub {
+    width: 28%;
+    float: right;
+    color: black;
+    background-color: #def4f3;
+}
+
+#img {
+    text-align: center;
+    border: solid white 10px;
+}
+    
