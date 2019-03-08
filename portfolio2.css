@@ -1,0 +1,141 @@
+/* Author: Mattye Johnson */
+
+header { 
+     background-image: linear-gradient(to right, black, #7F19DC, #C38BF5, white, #C38BF5, #7F19DC, black);
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     text-align: center;
+}
+
+nav {
+     padding: 1em;
+     background-image: linear-gradient(to right, black, #5A2CB5, #5A17A5, #5A2CB5, black);
+     text-align: center;
+}
+
+nav ul {
+     display: inline;
+     text-align: center;
+     list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav a {
+     padding: 0.25em;
+     color: #D67FFF;
+     font-weight: bold;
+     text-decoration: none;
+     text-align: center;
+}
+
+nav a:hover {
+     color: black;
+     background-color: #f0eff9;
+}
+
+nav a:active {
+     color: black;
+     background-color: #f0eff9;
+}
+
+nav a:visited {
+     color: grey;
+     background-color: #f0eff9;
+     color: #D67FFF;
+}
+
+#background {
+    background-color: #aab8ef;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -100px; 
+    width: 100%;
+    max-width: 1000px;
+}
+
+#main {
+    width: 70%;
+    float: left;
+    color: #D67FFF;
+    background-color: #1b4282;
+    height: 100%;
+    bottom: 0;
+    height: 900px;
+ 
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-align: left;
+    padding: 0px 10px 10px 25px;
+}
+
+#sub {
+    width: 30%;
+    float: right;
+    color: black;
+    background-color: #CED1FF;
+    text-align: center;
+    bottom: 0;
+    height: 900px;
+}
+
+#img {
+    text-align: center;
+    border: solid white 10px;
+}
+
+.footer {
+    color: black;
+    background-color: #D67FFF;
+    text-align: center;
+    font-size: 14pt;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 25px;
+    width: 100%;
+    height: 3%
+}
+.footer2 {
+    background-color: #D67FFF;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer2 .push {
+  height: 100px;
+
+}
+
+h3 {
+    text-align: center;
+}
+.img {
+    border: solid 5px;
+    width: 25%
+}
+
+ul {
+    text-align: left;
+}
+
+#mainabt {
+    background-color: #f1e8fc;
+     width: 70%;
+    float: left;
+    color: #440568;
+    bottom: 0;
+    height: 900px;
+}
+
+.abtphoto {
+    text-align: center;
+}
