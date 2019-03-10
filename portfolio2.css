@@ -29,21 +29,19 @@ nav a {
      text-decoration: none;
      text-align: center;
 }
-
 nav a:hover {
      color: black;
-     background-color: #f0eff9;
+     background-color: #D67FFF;
 }
 
 nav a:active {
      color: black;
-     background-color: #f0eff9;
+     background-color: #D67FFF;
 }
 
 nav a:visited {
      color: grey;
-     background-color: #f0eff9;
-     color: #D67FFF;
+     background-color: #D67FFF;
 }
 
 #background {
