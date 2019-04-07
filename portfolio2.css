@@ -137,3 +137,19 @@ ul {
 .abtphoto {
     text-align: center;
 }
+
+fieldset {
+    background-color: #f1e8fc;
+}
+
+formhead {
+    text-align: center;
+    color: black;
+    font-size: 22pt;
+}
+.contact {
+    background-color: #f1e8fc;
+    color: #440568;
+    bottom: 0;
+    height: 700px;
+}
