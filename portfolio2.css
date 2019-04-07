@@ -28,7 +28,9 @@ nav a {
      font-weight: bold;
      text-decoration: none;
      text-align: center;
+     font-family: 'Cinzel', serif;
 }
+
 nav a:hover {
      color: black;
      background-color: #D67FFF;
@@ -56,8 +58,8 @@ nav a:visited {
 #main {
     width: 70%;
     float: left;
-    color: #D67FFF;
-    background-color: #1b4282;
+    color: #440568;
+    background-color: #CED1FF;
     height: 100%;
     bottom: 0;
     height: 900px;
@@ -66,18 +68,20 @@ nav a:visited {
 h1 {
     text-align: center;
     text-decoration: underline;
+    font-family: 'Taviraj', serif;
 }
 
 p {
     text-align: left;
     padding: 0px 10px 10px 25px;
+    font-family: 'Pontano Sans', sans-serif;
 }
 
 #sub {
     width: 30%;
     float: right;
     color: black;
-    background-color: #CED1FF;
+    background-color: #f1e8fc;
     text-align: center;
     bottom: 0;
     height: 900px;
@@ -98,7 +102,8 @@ p {
     left: 0;
     bottom: 25px;
     width: 100%;
-    height: 3%
+    height: 3%;
+    font-family: 'Pontano Sans', sans-serif;
 }
 .footer2 {
     background-color: #D67FFF;
@@ -106,6 +111,8 @@ p {
     right: 0;
     bottom: 0;
     text-align: center;
+    font-family: 'Pontano Sans', sans-serif;
+
 }
 
 .footer2 .push {
@@ -115,6 +122,7 @@ p {
 
 h3 {
     text-align: center;
+    font-family: 'Taviraj', serif;
 }
 .img {
     text-align: center;
@@ -123,6 +131,8 @@ h3 {
 
 ul {
     text-align: left;
+    font-family: 'Pontano Sans', sans-serif;
+
 }
 
 #mainabt {
@@ -134,8 +144,20 @@ ul {
     height: 900px;
 }
 
+#subabt {
+     width: 30%;
+    float: right;
+    color: black;
+    background-color: #CED1FF;
+    text-align: center;
+    bottom: 0;
+    height: 900px;
+}
+
 .abtphoto {
     text-align: center;
+    font-family: 'Pontano Sans', sans-serif;
+
 }
 
 fieldset {
@@ -146,10 +168,22 @@ formhead {
     text-align: center;
     color: black;
     font-size: 22pt;
+    font-family: 'Taviraj', serif;
 }
 .contact {
     background-color: #f1e8fc;
     color: #440568;
     bottom: 0;
     height: 700px;
+}
+
+h2 {
+    font-family: 'Taviraj', serif;
+}
+.portfolio {
+    background-color: #f1e8fc;
+    color: #440568;
+    bottom: 0;
+    height: 1800px;
+    font-size: 15px;
 }
