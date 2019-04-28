@@ -188,3 +188,8 @@ h2 {
     height: 1800px;
     font-size: 15px;
 }
+p2 {
+    text-align: left;
+    padding: 0px 10px 10px 25px;
+    font-family: 'Pontano Sans', sans-serif;
+}
