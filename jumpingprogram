@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Horse Jumping Calculator Program</title>
+	<script type="text/javascript">
+	// Program name: final2.html
+    // Purpose: Horse jumping calculator
+    // Author: Mattye Johnson
+    // Date last modified: 05-19-2019
+
+// Functions
+    
+// Function to calculate horse age
+function horseAge() {
+    var age = document.getElementById("age_input").value;
+    age = parseInt(age);
+    var input;
+    if (age >= 5) {
+        input = "According to many equine professionals, your horse is old enough to be started over fences.";
+    } else {
+        input = "According to many equine professionals, your horse is not old enough to be started over fences.";
+    }
+    document.getElementById("ageHorse").innerHTML = input;
+}
+
+// Function to calculate horse condition
+function horseCondition() {
+    var condition = document.getElementById("condition_input").value;
+    condition = parseInt(condition);
+    var input;
+    if (condition >= 8) {
+        input = "Your horse is probably too overweight to be started over fences.";
+    } else if (condition >= 4) {
+        input = "Your horse is in ideal condition to be started over fences.";
+    } else {
+        input = "Your horse is probably too thin to be started over fences.";
+    }
+    document.getElementById("conditionHorse").innerHTML = input;
+}
+
+// Calculate horse soundness
+function horseSound() {
+    var soundness = document.getElementById("soundness_input").value;
+    var input;
+    if (soundness == "Y") {
+        input = "Since your horse is sound, it can be started over fences provided the other elements are met.";
+    } else {
+        input = "Do not start an unsound horse over fences.";
+    }
+    document.getElementById("soundnessHorse").innerHTML = input;
+}
+
+// Calculate user guess
+function ageGuess() {    
+    var ages1 = [5];
+
+    var i = 0;
+    var len = ages1.length;
+    var text = "";
+
+    for (; i < len; ) {
+     text += ages1[i] + "<br>";
+     i++;
+    }
+    document.getElementById("ages").innerHTML = text;
+    }
+
+// Calculate user guess
+function conditionGuess() {    
+    var condition1 = [4];
+
+    var i = 0;
+    var len = condition1.length;
+    var text = "";
+
+    for (; i < len; ) {
+     text += condition1[i] + "<br>";
+     i++;
+    }
+    document.getElementById("condition1").innerHTML = text;
+    }
+	
+	</script>
+	<link rel="stylesheet" href="final.css">
+</head>
+
+<body>
+
+<img src = "programArt.svg" alt = "Artwork" width = "400" />
+
+<h2>Is your horse able to be started over fences?</h2>
+
+<h4>Disclaimer: This is not completely accurate, rather, it is based off of the opinions of the majority of equine professionals. Please consult a local professional for information specific to you and your horse. Do not attempt any training that you are not skilled in.</h4>
+
+	<p id="ageHorse">How old is your horse? </p>
+	<input type="number" id="age_input">
+    <button onclick="horseAge()">Enter</button>
+
+	<p id="conditionHorse">What is your horse's body condition score? (Hint: Match your horse to <a href = "https://ker.com/wp-content/uploads/body-condition-score-chart.pdf" title = "Chart" target= "_blank">these guidelines</a>)</p>
+	<input type="number" id="condition_input">
+    <button onclick="horseCondition()">Enter</button>
+    
+    <p id="soundnessHorse">Is your horse currently sound? (Y/N)</p>
+    <input type = "text" id = "soundness_input">
+    <button onclick="horseSound()">Enter</button>
+    
+    <h3>What age do you think is the minimum age to start a horse over fences?</h3>
+    <p>Minimum age: <input type="number" id="ageGuess" value="Enter a number"></p>
+    <button onclick="ageGuess()">Enter</button>
+
+    <p>Actual answer: An age equal to <b><span id="ages"></span></b></p>
+    
+    <h3>What do you think is the minimum body condition to start a horse over fences?</h3>
+    <p>Minimum age: <input type="number" id="conditionGuess" value="Enter a number"></p>
+    <button onclick="conditionGuess()">Enter</button>
+
+    <p>Actual answer: A condition score equal to <b><span id="condition1"></span></b></p>
+    
+    <br />
+    <br />
+    
+    <p>&copy;2019 Mattye Johnson<p>
+
+    </body>
+</html>
