@@ -1,0 +1,13 @@
+body {
+    background-color: #eff1fc;
+}
+h2, h3 {
+    color: #6941ea;
+}
+h4 {
+    color: #2d2f42;
+}
+button {
+    background-color: #7255d1;
+    color: white;
+}
